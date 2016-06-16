@@ -1,0 +1,20 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "wdio-dot-reporter": "^0.0.5",
+    "webdriverio": "^4.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sync": "wdio wdio.conf.js",
+    "async": "wdio async-wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

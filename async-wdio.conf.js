@@ -10,7 +10,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/sync/*.js'
+        './test/specs/async/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -55,7 +55,7 @@ exports.config = {
     // By default WebdriverIO commands are executed in a synchronous way using
     // the wdio-sync package. If you still want to run your tests in an async way
     // e.g. using promises you can set the sync option to false.
-    sync: true,
+    sync: false,
     //
     // Level of logging verbosity: silent | verbose | command | data | result | error
     logLevel: 'verbose',
