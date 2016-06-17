@@ -22,8 +22,7 @@ npm run sync
 
 # Run asynchronous test suite
 
-Expected: That 2 tests should pass and 2 test should always fail.
-Actual: All tests pass.  (expectations are not evaluated)
+Expected: That 1 tests should pass and 2 test should always fail.
 
 ```
 npm run async
