@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This sample project was to demonstrate an bug that has since been resolved.
+
 # webdriverio-test
 
 This project provides a failing example demonstrating that jasmine tests
